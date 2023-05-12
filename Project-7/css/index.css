@@ -1,0 +1,177 @@
+
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    max-width:95%;
+    margin:0 auto;
+}
+
+.head{
+    max-width:90%;
+    position:relative;
+    margin-top:-200px;
+}
+
+.nav-menu-icon{
+    display:none;
+}
+.intro-section{
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+}
+
+.nav-item{
+    display:inline-block;
+    margin-left:25px;
+}
+
+
+.left-section{
+    display:flex;
+    flex-direction:column;
+    max-width:40%;
+    margin:0 auto;
+}
+
+.right-section{
+    max-width:40%;
+    margin:0 auto;
+}
+
+.display{
+    display:flex;
+}
+
+.discount{
+    position:relative;
+    z-index:1;
+    top:400px;
+    right:20px;
+    max-width:60%;
+}
+
+.discount-content{
+    position:relative;
+    z-index:1;
+    top:250px;
+    left:35px;
+}
+.action-btn{
+    position:relative;
+    top:-320px;
+}
+
+.org{
+    background-color:#e85b30;
+    border-radius:50%;
+    position:relative;
+    top:4px;
+    margin-right:2px;
+}
+
+
+
+h3{
+    font-size:30px;
+}
+h1{
+    font-size:35px;
+}
+
+h5{
+    font-size:25px;
+}
+
+p{
+    font-size:18px;
+}
+
+.btn{
+    position:relative;
+    top:405px;
+}
+
+.action-btn{
+    background-color:#e85b30;
+    padding:20px;
+    border-radius:40px;
+    border:2px solid #e85b30;
+    margin-left:15px;
+    color:#ffffff;
+    font-size:20px;
+}
+
+
+.btns{
+    position:relative;
+}
+
+
+@media screen and (max-width:976px){
+    .discount{
+        position:relative;
+        top:300px;
+    }
+    .discount-content{
+        top:160px;
+    }
+    .head{
+        margin-top:-240px;
+    }
+
+    .nav-item{
+        display:none;
+    }
+    .svg{
+        display:none;
+    }
+    .left-section{
+        margin-top:40px;
+    }
+
+
+   nav .nav-menu-icon { 
+        display:block;
+        color:#000000;
+        font-size:40px;
+    }
+
+
+}
+
+@media screen and (max-width:726px){
+    .discount{
+        top:240px;
+        max-width:60%;
+    }
+    .discount-content{
+        top:100px;
+        right:20px;
+    }
+
+    .action-btn{
+        margin:0 auto;
+    }
+
+}
+
+
+@media screen and (max-width:600px){
+ .intro-section{
+    flex-direction:column;
+ }
+ .right-section{
+    max-width:98%;
+    margin:30px auto;
+    order:-1;
+ }
+ .left-section{
+    max-width:98%;
+    margin:20px auto;
+ }
+ .action-btn{
+    margin-top:20px;
+ }   
+}
