@@ -1,0 +1,314 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color:#f8f8fa;
+}
+
+header{
+  background-color:#491bfe;
+}
+
+nav{
+  display:flex;
+  max-width:90%;
+  margin:10px auto;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+}
+
+.nav-menu-icon{
+  display:none;
+}
+
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:95%;
+  margin:0 auto;
+}
+
+a{
+  margin-right:30px;
+  color:#ffffff;
+}
+svg{
+  width:20px;
+}
+
+.header-text{
+  color:#ffffff;
+}
+
+.header-text h2{
+  font-size:30px;
+}
+
+
+.header-image{
+  max-width:80%;
+}
+
+.companies{
+  max-width:30%;
+  display:flex;
+  justify-content:space-around;
+}
+
+.companies-items{
+  text-decoration:none;
+  margin-top:10px;
+  color:#000000;
+}
+
+.card{
+  max-width:250px;
+  padding:15px;
+}
+
+.active{
+  background-color:#ffffff;
+}
+
+.cards{
+  max-width:95%;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  flex-wrap:wrap;
+}
+
+.blog-heading{
+  max-width:80%;
+  margin:0 auto;
+}
+
+.api{
+  max-width:80%;
+  margin:0 auto;
+}
+
+.blog-cards{
+  display:flex;
+  max-width:95%;
+  margin:0 auto;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+
+.blog-card{
+  display:flex;
+  background-color:#ffffff;
+  padding:10px;
+}
+
+.blog-image{
+  margin-right:30px;
+}
+
+.image{
+  max-width:85%;
+}
+
+.blog-content{
+  padding:5px;
+}
+
+.faq-section{
+  display:flex;
+  justify-content:space-around;
+  background-color:#e9edff;
+  max-width:90%;
+  margin:0 auto;
+  padding:30px;
+}
+
+.faq-content{
+  padding:20px;
+  max-width:40%;
+}
+
+.download-section{
+  max-width:95%;
+  display:flex;
+  justify-content:space-between;
+  margin-top:20px;
+  flex-wrap:wrap;
+  padding:20px;
+ 
+}
+
+form{
+  position:relative;
+}
+
+.content{
+  max-width:40%;
+}
+
+.download-email{
+  max-width:100%;
+}
+
+.footer-section{
+  display:flex;
+  background-color:#491bfe;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  padding:30px;
+}
+
+.footer-left{
+  display:flex;
+  flex-direction:column;
+}
+
+.footer-right{
+  display:flex;
+  flex-direction:column;
+}
+
+.faq-image{
+  max-width:95%;
+}
+
+input{
+ background-color:#e9edff;
+ width:340px;
+ height:40px;
+ border-radius:20px;
+ padding:10px;
+ border:2px solid #f8f8fa;
+}
+
+li{
+  list-decoration:none;
+}
+
+.footer-logo{
+  height:50px;
+  width:150px;
+}
+
+.list{
+  display:flex;
+  flex-wrap:wrap;
+  list-style-type:none;
+}
+
+.list-item{
+  margin-left:20px;
+}
+.list-items{
+  margin-right:30px;
+}
+
+.logos-list{
+  display:flex;
+  flex-wrap:wrap;
+  list-style-type:none;
+}
+
+button{
+  background-color:#491bfe;
+  color:#ffffff;
+  border:2px solid #e9edff;
+  padding:5px;
+}
+
+.download-email button{
+  padding:10px;
+  margin-top:25px;
+  width:120px;
+  border-radius:20px;
+  position:absolute;
+  right:5px;
+  top:-20px;
+}
+
+.social{
+  margin-left:50px;
+}
+
+@media screen and (max-width:968px){
+    .hide{
+      display:none;
+  }
+  nav .nav-menu-icon{
+    display:block;
+    color:#ffffff;
+    font-size:30px;
+  }
+}
+
+@media screen and (max-width:768px){
+.footer-section{
+  flex-direction:column;
+}
+.footer-left{
+  max-width:100%;
+  align-items:center;
+}
+.footer-right{
+  max-width:100%;
+  align-items:center;
+  margin-left:0px;
+}
+.blog-cards{
+  justify-content:space-between;
+}
+.header{
+  flex-direction:column;
+}
+
+.blog-bottom{
+  max-width:90%;
+}
+
+.header-text{
+  max-width:100%;
+  order:2;
+}
+  
+}
+
+
+
+@media screen and (max-width:552px){
+  .blog-card{
+    flex-direction:column;
+  }
+  .blog-cards{
+    margin:0 auto;
+  }
+  .content{
+    max-width:90%;
+    margin:0 auto;
+  }
+  .blog-image{
+    margin-right:0px;
+  }
+  .download-content{
+    text-align:center;
+  }
+  input{
+    width:260px;
+  }
+  .download-email button{
+    right:0px;
+    top:-15px;
+  }
+
+  .social{
+    margin-left:0px;
+  }
+
+}
